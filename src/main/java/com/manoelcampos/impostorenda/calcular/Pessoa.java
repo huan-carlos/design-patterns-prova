@@ -1,16 +1,27 @@
 package com.manoelcampos.impostorenda.calcular;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public abstract class Pessoa {
     private String cgc; // Cadastro Geral de Contribuinte
     private String nome;
 
-    public Pessoa(String cgc, String nome) {
+    public Pessoa(String nome, String cgc) {
         this.cgc = cgc;
+        this.nome = nome;
+    }
+
+    public String getCgc() {
+        return cgc;
+    }
+
+    public void setCgc(String cgc) {
+        this.cgc = cgc;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
         this.nome = nome;
     }
 

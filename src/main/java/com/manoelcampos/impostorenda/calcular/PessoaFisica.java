@@ -1,10 +1,5 @@
 package com.manoelcampos.impostorenda.calcular;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class PessoaFisica extends Pessoa {
     private double salarioBruto;
     private double deducaoDependentes;

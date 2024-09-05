@@ -9,7 +9,7 @@ public class Principal {
         Pessoa pf = new PessoaFisica("Huan Carlos","000.000.000-00", 2800, 2, 500, 600);//informar salário bruto, Nº dependentes, INSS pago, gastos saúde, gastos educação
         Pessoa pj = new PessoaJuridica("IFTO", "00.000.000/0000-00", 200000, 50000);//informar nome, cnpj, lucro, compra de produtos que incidem icms R$,
 
-        System.out.println(pf.getNome() + " deve pagar: R$" + pf.calcularImpostos());
-        System.out.println(pj.getNome() + " deve pagar: R$" + pj.calcularImpostos());
+        System.out.println(pf.getNome() + " deve pagar de IR + INSS: R$" + pf.calcularImpostos());
+        System.out.println(pj.getNome() + " deve pagar de IR + CSLL + ICMS: R$" + pj.calcularImpostos());
     }
 }

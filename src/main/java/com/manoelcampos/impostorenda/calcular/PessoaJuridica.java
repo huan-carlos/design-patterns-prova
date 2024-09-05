@@ -1,10 +1,5 @@
 package com.manoelcampos.impostorenda.calcular;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class PessoaJuridica extends Pessoa {
     private double lucro;
     private double comprasProdutosICMS;
