@@ -25,4 +25,7 @@ PJ
 - Alíquota CSLL: 9%
 - CSLL = lucro * alíquota CSLL
 
+-Alíquota ICMS: 5%
+- ICMS = comprasProdutosICMS * alíquota ICMS
+
 - PJ paga IR + CSLL + ICMS
