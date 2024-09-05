@@ -1,0 +1,28 @@
+PF
+- Alíquota IRPF: 11%
+- IR Parcial = (Salário bruto - dedução em R$ por dependente - R$ INSS) * alíquota IRPF
+
+- Alíquota INSS: 11%
+- INSS = Salário bruto * alíquota INSS
+
+- IR da PF (R$) = IR Parcial - (gastos saúde + gastos educação)
+
+- PF paga IR + INSS
+
+PJ
+- Alíquota IRPJ: 15%
+- IR Parcial (R$) = lucro * alíquota IRPJ
+
+- Limite Cobrança IR (R$) = 20000
+  // Total de IR a pagar que excede o limite indicado acima
+- IR Excedente (R$) = IR Parcial - Limite Cobrança IR
+- Aliquota Adicional = 0.1 // 10%
+- IR da PJ (R$) = IR Parcial + (IR Excedente > 0 ? IR Excedente * Alíquota Adicional  : 0)
+
+- Alíquota INSS: 9%
+- INSS = lucro * alíquota INSS
+
+- Alíquota CSLL: 9%
+- CSLL = lucro * alíquota CSLL
+
+- PJ paga IR + CSLL + ICMS
